@@ -1,0 +1,25 @@
+{
+  "name": "docker_reverse_proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/dockerode": "^3.3.31",
+    "@types/express": "^5.0.0",
+    "@types/http-proxy": "^1.17.15",
+    "@types/node": "^22.8.1",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "docker_reverse_proxy": "file:",
+    "dockerode": "^4.0.2",
+    "express": "^4.21.1",
+    "http-proxy": "^1.18.1"
+  }
+}
